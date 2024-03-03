@@ -1,0 +1,2364 @@
+/*
+Theme Name: Cartooning for Peace
+Author: Efficience Multimédia
+Author URI: http://www.efficience.com
+Description: Theme Wordpress Cartooning for Peace 2015
+*/
+
+/* == Styles de base Wordpress == */
+@import url("../../../../maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+.entry-content img {
+	margin: 0 0 1.5em 0;
+	}
+.alignleft, img.alignleft {
+	margin-right: 1.5em;
+	display: inline;
+	float: left;
+	}
+.alignright, img.alignright {
+	margin-left: 1.5em;
+	display: inline;
+	float: right;
+	}
+.aligncenter, img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+	}
+.wp-caption {
+	margin-bottom: 1.5em;
+	text-align: center;
+	padding-top: 5px;
+	}
+.wp-caption img {
+	border: 0 none;
+	padding: 0;
+	margin: 0;
+	}
+.wp-caption p.wp-caption-text {
+	line-height: 1.5;
+	font-size: 10px;
+	margin: 0;
+	}
+.wp-smiley {
+	margin: 0 !important;
+	max-height: 1em;
+	}
+blockquote.left {
+	margin-right: 20px;
+	text-align: right;
+	margin-left: 0;
+	width: 33%;
+	float: left;
+	}
+blockquote.right {
+	margin-left: 20px;
+	text-align: left;
+	margin-right: 0;
+	width: 33%;
+	float: right;
+	}
+.gallery dl {}
+.gallery dt {}
+.gallery dd {}
+.gallery dl a {}
+.gallery dl img {}
+.gallery-caption {}
+
+.size-full {}
+.size-large {}
+.size-medium {}
+.size-thumbnail {}
+
+/* == Fin des styles de base Wordpress == */
+
+
+/** CARTOONING FOR PEACE **/
+
+body {
+margin: 0;
+padding: 0;
+font-size: 14px;
+line-height: 18px;
+color: #4b4a4b;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+}
+
+html, html a {
+-webkit-font-smoothing: antialiased;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+/*text-rendering: optimizeLegibility !important;*/
+}
+
+.clear {
+display: block;
+clear: both;
+}
+
+.contenu-page h2,
+.contenu-page h3,
+.contenu-page h4,
+.contenu-page h5,
+.contenu-page h6 {
+font-family: 'Museo-500';
+}
+
+.contenu-page a {
+font-weight: 700;
+color: #138bc7;
+text-decoration: underline;
+}
+
+.contenu-page h3.cont-cita {
+font-family: 'Museo-500';
+font-size: 26px;
+line-height: 38px;
+}
+
+.contenu-page a:hover {
+color: #3A9FDA;
+}
+
+.contenu-page .minia-page {
+float: left;
+max-width: 300px;
+margin-right: 20px;
+}
+
+.contenu-page .txt-page {
+float: left;
+width: 670px;
+margin-top: -14px;
+}
+
+.contenu-page .minia-page img {
+max-width: 100%;
+height: auto;
+}
+
+/** HEADER **/
+#header {
+width: 100%;
+position: relative;
+height: 153px;
+background: #ffffff;
+}
+
+#header:after {
+content: '';
+width: 100%;
+position: absolute;
+left: 0;
+top: 153px;
+height: 16px;
+background: url(img/ombre-header.png) repeat-x;
+}
+
+#header h1 {
+margin: 0;
+}
+
+#cont-header {
+width: 1000px;
+margin: 0 auto;
+position: relative;
+}
+
+#select-langues {
+position: absolute;
+right: 0;
+top: 80px;
+/*display: none;*/
+}
+
+#select-langues #lang_sel_list ul a {
+font-size: 14px;
+color: #a6b4bb;
+font-weight: 600;
+font-family: 'Open Sans', sans-serif;
+}
+
+#select-langues #lang_sel_list ul a:hover {
+color: #353535;
+}
+
+#select-langues #lang_sel_list ul li:first-child {
+position: relative;
+padding-right: 6px !important;
+}
+
+#select-langues #lang_sel_list ul li:first-child:after {
+content: '';
+position: absolute;
+width: 2px;
+height: 13px;
+background: #a0bac4;
+top: 0;
+right: 0px;
+}
+
+#select-langues #lang_sel_list ul a.lang_sel_sel {
+color: #353535;
+}
+
+#cont-header .bloc-logo {
+margin-top: 26px;
+float: left;
+}
+
+#menu {
+position: absolute;
+left: 0;
+top: 153px;
+width: 1002px;
+}
+
+#menu .menu-main-fr-container {
+float: left;
+}
+
+#menu ul {
+padding: 0;
+margin: 0;
+}
+
+#menu ul li {
+float: left;
+list-style: none;
+position: relative;
+}
+
+#menu ul li a {
+color: #ffffff;
+text-decoration: none;
+display: block;
+text-transform: uppercase;
+background: #3a9fda;
+font-size: 16px;
+font-weight: 700;
+padding: 26px 34px 20px 10px;
+border-right: 1px solid #ffffff;
+position: relative;
+cursor: pointer;
+}
+
+#menu ul li a:hover,
+#menu ul li:hover {
+background: #353535;
+}
+#menu ul li.menu-item-75 a {
+padding:26px 24px 20px 20px
+}
+#menu ul li.menu-item-92 a {
+/*padding: 26px 31px 20px 21px;*/
+padding:26px 27px 20px 22px
+}
+
+#menu ul li.menu-item-109 a,
+#menu ul li.menu-item-152 a {
+padding: 26px 32px 20px 11px;
+}
+
+#menu ul li.menu-item-108 a {
+padding: 26px 32px 20px 10px;
+}
+
+#menu ul li.menu-item-107 a {
+padding: 26px 39px 20px 10px;
+}
+
+#menu ul li a:after {
+content: '';
+width: 6px;
+height: 4px;
+background: url(img/mini-fleche-bas.png) no-repeat;
+position: absolute;
+right: 12px;
+top: 34px;
+}
+
+#menu a.item-menu-presse,
+#menu .menu-item-7833 a,
+#menu .menu-item-7834 a {
+color: #353535;
+text-decoration: none;
+display: block;
+text-transform: uppercase;
+background: #d0e6f1;
+font-size: 15px;
+font-weight: 700;
+padding: 26px 61px 20px 26px;
+border-right: 1px solid #ffffff;
+position: relative;
+float: left;
+}
+
+#menu .menu-item-7833 a:hover,
+#menu .menu-item-7834 a:hover {
+background: #d0e6f1;
+}
+
+#menu a.item-menu-presse:after,
+#menu .menu-item-7833 a:after,
+#menu .menu-item-7834 a:after {
+content: '';
+width: 18px;
+height: 24px;
+background: url(img/cadenas.png) no-repeat;
+position: absolute;
+right: 27px;
+top: 18px;
+}
+
+#menu a.item-menu-presse {
+display: none;
+}
+
+#menu ul li .sub-menu {
+display: none;
+position: absolute;
+left: 0;
+top: 64px;
+width: 320px;
+z-index: 12;
+border-top: 1px solid #ffffff;
+}
+
+#menu ul li .sub-menu li{
+width: 100%;
+float: left;
+}
+
+#menu ul li .sub-menu li a {
+padding: 20px 34px 14px 10px;
+font-size: 14px;
+text-transform: none;
+}
+
+#menu ul li .sub-menu li a:after {
+top: 28px;
+}
+
+#menu ul li.menu-item-has-children:hover .sub-menu {
+display: block;
+}
+
+#menu ul li.menu-item-has-children:hover .sub-menu .sub-menu {
+display: none;
+}
+
+#menu ul li.menu-item-has-children:hover .sub-menu li.menu-item-has-children:hover .sub-menu {
+display: block;
+}
+
+#menu ul li .sub-menu li a {
+border-right: none;
+}
+
+#menu ul li .sub-menu li a:after {
+background: none;
+}
+
+#menu ul li .sub-menu li.menu-item-has-children a:after {
+background: url(img/mini-fleche-bas.png) no-repeat;
+}
+
+#menu ul li .sub-menu li.menu-item-has-children .sub-menu a:after {
+background: none;
+}
+
+#menu ul li .sub-menu .sub-menu {
+position: absolute;
+left: 321px;
+top: -1px;
+display: none;
+}
+
+#menu ul li .sub-menu li:hover .sub-menu {
+display: block;
+}
+/** FIN HEADER **/
+
+/** PAGE D'ACCUEIL **/
+
+#sliderhp {
+width: 100%;
+margin-top: 84px;
+height: 620px;/*695*/
+position: relative;
+max-width: 1600px;
+margin: 84px auto 0 auto;
+}
+
+.cont-sliderhp {
+/*width: 1600px;*/
+max-width: 1600px;
+margin: 0 auto;
+}
+
+#sliderhp .partie-gauche {
+width: 550px;
+float: left;
+padding-left: 62px;
+padding-top: 70px;
+padding-right: 20px;
+box-sizing: border-box;
+position: relative;
+z-index: 10;
+padding-bottom:20px;
+}
+
+#sliderhp .date-edito {
+font-style: italic;
+color: #ffffff;
+background: #3a9ed9;
+padding: 5px 30px 6px 20px;
+display: inline-block;
+}
+
+#sliderhp h2 {
+font-size: 30px;
+font-family: 'Museo-300';
+line-height: 34px;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+
+#sliderhp h2 strong {
+font-size: 36px;
+font-family: 'Museo-700';
+font-weight: normal;
+display: block;
+}
+
+#sliderhp .partie-droite {
+width: 100%;
+float: left;
+position: absolute;
+top: 26%;/*edited*/
+padding-left: 550px;
+box-sizing: border-box;
+
+}
+
+#carousel {
+margin-bottom: 1px;
+}
+
+.vign-fake {
+margin-bottom: 30px;
+}
+
+#carousel .slides {
+width: 420px !important;
+transform: translate3d(0px, 0px, 0px) !important;
+}
+
+#carousel li{
+text-align: center;
+width: 110px;
+height: 71px;
+overflow: hidden;
+box-sizing: border-box;
+cursor: pointer;
+}
+
+#carousel li.flex-active-slide {
+border: 5px solid #43a8e0;
+}
+
+#carousel img{
+max-height: 71px;
+width: auto;
+display: inline-block !important;
+}
+
+#sliderhp .partagez {
+color: #3a9ed9;
+font-weight: 700;
+margin-top: 32px;
+}
+
+#sliderhp .partagez ul,
+#zone-even-une .parta-even-une ul {
+padding: 0;
+margin: 9px 0 0 0;
+list-style: none;
+}
+
+#blocs-footer .bloc-footer.suivez ul {
+padding: 0;
+/*margin: 25px 0 0 52px;*/
+	margin:20px 21%;
+list-style: none;
+}
+#blocs-footer .bloc-footer.suivez.en ul {
+
+margin: 25px 0 0 67px;
+
+}
+
+#zone-endess .zone-partaendess ul {
+width: 150px;
+padding: 0;
+margin: 22px auto;
+list-style: none;
+}
+
+#sliderhp .partagez ul li,
+#blocs-footer .bloc-footer.suivez ul li,
+#fiche-dessi .zone-parta ul li,
+#zone-endess .zone-partaendess ul li,
+#zone-even-une .parta-even-une ul li,
+#listing-expos .infos-expo .zone-parta ul li {
+float: left;
+}
+
+#sliderhp .partagez a,
+#blocs-footer .bloc-footer.suivez ul li a,
+#fiche-dessi .zone-parta ul li a,
+#zone-endess .zone-partaendess ul li a,
+#zone-even-une .parta-even-une ul li a,
+#listing-expos .infos-expo .zone-parta ul li a {
+width: 33px;
+height: 33px;
+display: block;
+margin-right: 4px;
+}
+
+#sliderhp .partagez a.bulle-mail,
+#blocs-footer .bloc-footer.suivez a.bulle-mail,
+#fiche-dessi .zone-parta a.bulle-mail,
+#zone-endess .zone-partaendess a.bulle-mail,
+#zone-even-une .parta-even-une a.bulle-mail,
+#listing-expos .infos-expo .zone-parta a.bulle-mail {
+background: url(img/bulle-mail.png) no-repeat bottom;
+}
+
+#sliderhp .partagez a.bulle-mail:hover,
+#blocs-footer .bloc-footer.suivez a.bulle-mail:hover,
+#fiche-dessi .zone-parta a.bulle-mail:hover,
+#zone-endess .zone-partaendess a.bulle-mail:hover,
+#zone-even-une .parta-even-une a.bulle-mail:hover,
+#listing-expos .infos-expo .zone-parta a.bulle-mail:hover  {
+background: url(img/bulle-mail.png) no-repeat top;
+}
+
+#sliderhp .partagez a.bulle-facebook,
+#blocs-footer .bloc-footer.suivez a.bulle-facebook,
+#fiche-dessi .zone-parta a.bulle-facebook,
+#zone-endess .zone-partaendess a.bulle-facebook,
+#zone-even-une .parta-even-une a.bulle-facebook,
+#listing-expos .infos-expo .zone-parta a.bulle-facebook {
+background: url(img/bulle-facebook.png) no-repeat bottom;
+}
+
+#sliderhp .partagez a.bulle-facebook:hover,
+#blocs-footer .bloc-footer.suivez a.bulle-facebook:hover,
+#fiche-dessi .zone-parta a.bulle-facebook:hover,
+#zone-endess .zone-partaendess a.bulle-facebook:hover,
+#zone-even-une .parta-even-une a.bulle-facebook:hover,
+#listing-expos .infos-expo .zone-parta a.bulle-facebook:hover {
+background: url(img/bulle-facebook.png) no-repeat top;
+}
+
+#sliderhp .partagez a.bulle-twitter,
+#blocs-footer .bloc-footer.suivez a.bulle-twitter,
+#fiche-dessi .zone-parta a.bulle-twitter,
+#zone-endess .zone-partaendess a.bulle-twitter,
+#zone-even-une .parta-even-une a.bulle-twitter,
+#listing-expos .infos-expo .zone-parta a.bulle-twitter {
+background: url(img/bulle-twitter.png) no-repeat bottom;
+}
+
+#sliderhp .partagez a.bulle-twitter:hover,
+#blocs-footer .bloc-footer.suivez a.bulle-twitter:hover,
+#fiche-dessi .zone-parta a.bulle-twitter:hover,
+#zone-endess .zone-partaendess a.bulle-twitter:hover,
+#zone-even-une .parta-even-une a.bulle-twitter:hover,
+#listing-expos .infos-expo .zone-parta a.bulle-twitter:hover {
+background: url(img/bulle-twitter.png) no-repeat top;
+}
+
+#sliderhp .partagez a.bulle-disqus,
+#blocs-footer .bloc-footer.suivez a.bulle-disqus,
+#fiche-dessi .zone-parta a.bulle-disqus,
+#zone-endess .zone-partaendess a.bulle-disqus,
+#zone-even-une .parta-even-une a.bulle-disqus,
+#listing-expos .infos-expo .zone-parta a.bulle-disqus {
+background: url(img/bulle-dribble.png) no-repeat bottom;
+}
+
+#sliderhp .partagez a.bulle-disqus:hover,
+#blocs-footer .bloc-footer.suivez a.bulle-disqus:hover,
+#fiche-dessi .zone-parta a.bulle-disqus:hover,
+#zone-endess .zone-partaendess a.bulle-disqus:hover,
+#zone-even-une .parta-even-une a.bulle-disqus:hover,
+#listing-expos .infos-expo .zone-parta a.bulle-disqus:hover {
+background: url(img/bulle-dribble.png) no-repeat top;
+}
+
+#sliderhp .partagez a.bulle-instagram,
+#blocs-footer .bloc-footer.suivez a.bulle-instagram,
+#fiche-dessi .zone-parta a.bulle-instagram,
+#zone-endess .zone-partaendess a.bulle-instagram,
+#zone-even-une .parta-even-une a.bulle-instagram,
+#listing-expos .infos-expo .zone-parta a.bulle-instagram {
+background: url(img/bulle-instagram.png) no-repeat bottom;
+}
+
+#sliderhp .partagez a.bulle-instagram:hover,
+#blocs-footer .bloc-footer.suivez a.bulle-instagram:hover,
+#fiche-dessi .zone-parta a.bulle-instagram:hover,
+#zone-endess .zone-partaendess a.bulle-instagram:hover,
+#zone-even-une .parta-even-une a.bulle-instagram:hover,
+#listing-expos .infos-expo .zone-parta a.bulle-instagram:hover {
+background: url(img/bulle-instagram.png) no-repeat top;
+}
+
+#sliderhp .partagez a.bulle-lin,
+#blocs-footer .bloc-footer.suivez a.bulle-lin,
+#fiche-dessi .zone-parta a.bulle-lin,
+#zone-endess .zone-partaendess a.bulle-lin,
+#zone-even-une .parta-even-une a.bulle-lin,
+#listing-expos .infos-expo .zone-parta a.bulle-lin {
+background: url(img/bulle-in.png) no-repeat bottom;
+}
+
+#sliderhp .partagez a.bulle-lin:hover,
+#blocs-footer .bloc-footer.suivez a.bulle-lin:hover,
+#fiche-dessi .zone-parta a.bulle-lin:hover,
+#zone-endess .zone-partaendess a.bulle-lin:hover,
+#zone-even-une .parta-even-une a.bulle-lin:hover,
+#listing-expos .infos-expo .zone-parta a.bulle-lin:hover {
+background: url(img/bulle-in.png) no-repeat top;
+}
+
+#sliderhp .partagez a.bulle-youtube,
+#blocs-footer .bloc-footer.suivez a.bulle-youtube,
+#fiche-dessi .zone-parta a.bulle-youtube,
+#zone-endess .zone-partaendess a.bulle-youtube,
+#zone-even-une .parta-even-une a.bulle-youtube,
+#listing-expos .infos-expo .zone-parta a.bulle-youtube {
+background: url(img/bulle-yt.png) no-repeat bottom;
+}
+
+#sliderhp .partagez a.bulle-youtube:hover,
+#blocs-footer .bloc-footer.suivez a.bulle-youtube:hover,
+#fiche-dessi .zone-parta a.bulle-youtube:hover,
+#zone-endess .zone-partaendess a.bulle-youtube:hover,
+#zone-even-une .parta-even-une a.bulle-youtube:hover,
+#listing-expos .infos-expo .zone-parta a.bulle-youtube:hover {
+background: url(img/bulle-yt.png) no-repeat top;
+}
+
+#blocs-footer .bloc-footer.suivez a.bulle-rss {
+background: url(img/bulle-rss.png) no-repeat bottom;
+}
+
+#blocs-footer .bloc-footer.suivez a.bulle-rss:hover {
+background: url(img/bulle-rss.png) no-repeat top;
+}
+
+#slider .slides li {
+text-align: center;
+height: 695px;
+}
+
+#slider .flex-prev {
+display: none;
+}
+
+#slider a.flex-next {
+position: absolute;
+right: 0;
+top: 0;
+width: 61px;
+height: 695px;
+background: url(img/bg-fleches-shp.png);
+z-index: 10;
+text-indent: -90000px;
+}
+
+#slider a.flex-next:after {
+content: '';
+width: 29px;
+height: 55px;
+background: url(img/fleche-suiv-shp.png) no-repeat;
+position: absolute;
+top: 320px;
+left: 20px;
+}
+
+#slider li img{
+max-height: 100%;
+width: auto;
+max-width: 100%;
+display: inline-block !important;
+}
+
+/* Corp de la page d'accueil */
+#corp-hp {
+background: #f6f6f6;
+padding-bottom: 67px;
+}
+
+#corp-hp .cont-corp-hp {
+width: 1000px;
+margin: 0 auto;
+padding-top: 38px; 
+}
+
+#corp-hp h2{
+font-size: 19px;
+color: #353535;
+position:relative;
+font-family: 'Museo-700';
+margin-top: 0;
+z-index: 2;
+text-transform: uppercase;
+    margin-bottom: 21px;
+}
+
+#corp-hp h2:after {
+content: '';
+width: 38px;
+height: 38px;
+background: url(img/fioriture-titre.png) no-repeat;
+position: absolute;
+left: -9px;
+top: -11px;
+z-index: -1;
+}
+
+#slider-actus {
+width: 1000px;
+background: #ffffff;
+position: relative;
+}
+
+#slider-actus .flex-control-nav {
+position: absolute;
+bottom: 50px;
+left: 58px;
+z-index: 2;
+}
+
+#slider-actus .flex-control-nav li {
+float: left;
+}
+
+#slider-actus .flex-control-nav li a {
+display: block;
+width: 11px;
+height: 11px;
+background: #7f7f7f;
+border-radius: 50px;
+margin-right: 9px;
+text-indent: -9000px;
+cursor: pointer;
+}
+
+#slider-actus .flex-control-nav li a.flex-active {
+background: #f27a7c;
+}
+
+#slider-actus .etiquette {
+position: absolute;
+left: 0;
+top: 0;
+background: #f2797a;
+color: #fefefe;
+font-size: 12px;
+font-weight: 700;
+padding: 10px 61px 8px 10px;
+text-transform: uppercase;
+}
+
+#slider-actus .img-actu {
+float: left;
+margin-top: 11px;
+margin-left: 21px;
+max-width: 540px;
+height: 400px;
+overflow: hidden;
+text-align: center;
+}
+
+#slider-actus .img-actu img{
+max-height: 100%;
+width: auto;
+max-width: 100%;
+}
+
+#slider-actus .txt-actu {
+width: 431px;
+float: left;
+padding-right: 74px;
+padding-left: 56px;
+padding-top: 82px;
+box-sizing: border-box;
+}
+
+#slider-actus .txt-actu .date-actu{
+color: #656565;
+font-size: 14px;
+font-style: italic;
+}
+
+#slider-actus .txt-actu h3{
+font-family: 'Museo-500';
+font-size: 23px;
+line-height: 25px;
+font-weight: normal;
+margin-top: 0;
+margin-bottom: 11px;
+}
+
+#slider-actus .txt-actu h3 a {
+text-decoration: none;
+color: #353535;
+}
+
+#slider-actus .txt-actu h3 a:hover {
+color: #3a9ed9;
+}
+
+#slider-actus .txt-actu a.btn-lls {
+font-weight: 700;
+color: #000000;
+text-decoration: none;
+margin-top: 10px;
+display: block;
+}
+
+#blocs-actus {
+margin-top: 32px;
+}
+
+#blocs-actus p {
+margin: 0;
+}
+
+#blocs-actus .img-bloc-actu {
+width: 322px;
+height: 247px;
+overflow: hidden;
+}
+
+#blocs-actus .img-bloc-actu img {
+width: 100%;
+height: auto/*227px*/ /*old auto*/;
+}
+
+#blocs-actus .bloc-rdp,
+#blocs-actus .bloc-jtfud,
+#blocs-actus .bloc-dessina {
+width: 322px;
+float: left;
+position: relative;
+}
+
+#blocs-actus .bloc-jtfud {
+margin: 0 17px;
+}
+
+#blocs-actus .etiquette{
+position: absolute;
+left: 0;
+top: 0;
+background: #f2797a;
+color: #fefefe;
+font-size: 12px;
+font-weight: 700;
+padding: 10px 16px 8px 10px;
+text-transform: uppercase;
+}
+
+#blocs-actus .date-bloc-actu {
+color: #656565;
+font-size: 14px;
+font-style: italic;
+margin-top: 8px;
+}
+
+#blocs-actus h3 {
+font-size: 23px;
+line-height: 25px;
+font-family: 'Museo-500';
+font-weight: normal;
+margin-top: 1px;
+margin-bottom: 10px;
+}
+
+#blocs-actus h3 a {
+text-decoration: none;
+color: #353535;
+}
+
+#blocs-actus h3 a:hover {
+color: #3a9ed9;
+}
+
+#blocs-actus .btn-lls {
+text-decoration: none;
+font-weight: 700;
+color: #000000;
+margin-top: 9px;
+display: block;
+}
+
+#blocs-actus .btn-lls:hover,
+#slider-actus .txt-actu a.btn-lls:hover {
+color: #3a9ed9;
+}
+
+/* Fin corp de la page d'accueil */
+
+/** FIN PAGE D'ACCUEIL **/
+
+/** FOOTER **/
+
+#sur-footer {
+width: 1000px;
+margin: 0 auto;
+}
+
+#sur-footer .bloc-sur-footer {
+width: 320px;
+margin-right: 20px;
+float: left;
+text-align: center;
+}
+
+#sur-footer .bloc-sur-footer.last {
+margin-right: 0;
+}
+
+#sur-footer h4 {
+font-size: 18px;
+color: #4f8bca;
+font-family: 'Museo-500';
+font-weight: normal;
+text-transform: uppercase;
+margin-top: 47px;
+margin-bottom: 25px;
+}
+
+#sur-footer h4 a{
+color: #4f8bca;
+text-decoration: none;
+}
+
+#sur-footer .txt-bsf {
+margin-top: 17px;
+line-height: 20px;
+}
+
+#footer {
+border-top: 1px solid #edebeb;
+margin-top: 43px;
+position: relative;
+}
+
+#footer .separa-footer {
+width: 100%;
+border-top: 1px solid #edebeb;
+margin-top: 32px;
+}
+
+#blocs-footer {
+width: 1000px;
+margin: 0 auto;
+}
+
+#blocs-footer .bloc-footer  {
+float: left;
+width: 320px;
+position: relative;
+z-index: 2;
+}
+
+#blocs-footer .bloc-footer.sommaire,
+#blocs-footer .bloc-footer.suivez  {
+margin-right: 20px;
+}
+
+#blocs-footer .bloc-footer.suivez {
+text-align: center;
+font-weight: 300;
+}
+
+#blocs-footer .bloc-footer.suivez:before {
+content: '';
+width: 1px;
+height: 141px;
+background: #d9d9d9;
+position: absolute;
+left: 0;
+top: 54px;
+}
+
+#blocs-footer .bloc-footer.suivez:after {
+content: '';
+width: 1px;
+height: 141px;
+background: #d9d9d9;
+position: absolute;
+right: 0;
+top: 54px;
+}
+
+#blocs-footer .bloc-footer.sommaire ul {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+#blocs-footer .bloc-footer.sommaire ul li{
+width: 100%;
+}
+
+#blocs-footer .bloc-footer.sommaire ul.somm-un,
+.menu-premier-menu-de-sommaire-en-container,
+#blocs-footer .bloc-footer .menu-premier-menu-de-sommaire-container {
+float: left;
+width: 194px;
+}
+
+#blocs-footer .bloc-footer.sommaire ul li a{
+text-decoration: none;
+color: #0a0a0a;
+line-height: 20px;
+font-weight: 300;
+}
+
+#blocs-footer .bloc-footer.sommaire ul li a:hover {
+color: #4f8bca;
+}
+
+#blocs-footer .bloc-footer h5  {
+font-size: 18px;
+font-family: 'Museo-300';
+font-weight: normal;
+color: #4f8bca;
+text-transform: uppercase;
+margin-top: 39px;
+margin-bottom: 13px;
+}
+
+#blocs-footer .bloc-footer.newsl {
+font-weight: 300;
+}
+
+#blocs-footer .bloc-footer.newsl h5 {
+margin-left: 95px;/*61*/
+}
+
+#blocs-footer .bloc-footer.newsl form{
+/*margin-left: 52px;*/
+/*margin-left: 62px;*/
+}
+
+#blocs-footer .bloc-footer.newsl form,#blocs-footer .bloc-footer.newsl form li.gfield{
+    text-align:center!important;
+    
+}
+
+#blocs-footer .bloc-footer.newsl .souris-newsl {
+width: 103px;
+height: 59px;
+position: absolute;
+right: 0;
+bottom: -10px;
+background: url(img/souris-cfp.png) no-repeat;
+display: none;
+}
+
+#blocs-footer .bloc-footer.newsl input[type="text"] {
+/*border: none;*/
+text-align: left;
+width: 188px;
+/*padding-top: 4px;
+padding-bottom: 4px;*/
+}
+
+#blocs-footer .bloc-footer.newsl button {
+color: #ffffff;
+border: none;
+background: #363636;
+text-align: center;
+font-size: 13px;
+font-weight: 600;
+padding: 8px 26px 7px 23px;
+margin-top: 19px;
+margin-left: 24px;
+cursor: pointer;
+}
+
+#blocs-footer .bloc-footer.newsl button:hover {
+background: #4f8bca;
+}
+
+#bande-partenaires {
+width: 1000px;
+margin: 0 auto;
+text-align: center;
+}
+
+#bande-partenaires img{
+display: block;
+}
+
+#bande-partenaires h5{
+font-size: 18px;
+font-family: 'Museo-300';
+font-weight: normal;
+color: #4f8bca;
+text-transform: uppercase;
+margin-top: 31px;
+margin-bottom: 18px;
+}
+
+.bloc-gris-chelou {
+width: 100%;
+height: 51px;
+background: #ebebeb;
+margin-top: 20px;
+line-height: 51px;
+}
+
+#footer .bande-bleue {
+width: 100%;
+text-align: center;
+color: #ffffff;
+padding: 17px 0 16px 0;
+background: #3a9fda;
+margin-top: 30px;
+font-weight: 300;
+}
+
+#footer .bande-bleue a {
+text-decoration: none;
+color: #ffffff;
+}
+
+#footer .bande-bleue a:hover {
+text-decoration: underline;
+}
+
+/** FIN FOOTER **/
+
+/** PAGE INTERNE **/
+
+#page-interne {
+min-height: 500px;
+background: #f6f6f6;
+padding-top: 44px;
+padding-bottom: 44px;
+}
+
+#page-interne .corps {
+width: 1000px;
+margin: 0 auto;
+}
+
+h1.titre-page {
+font-family: 'Museo-500';
+font-size: 44px;
+font-weight: normal;
+line-height: 46px;
+margin-top: 0;
+color: #399dd7;
+margin-bottom: 30px;
+}
+
+h2.sstitre-page {
+margin: 0 0 46px 0;
+font-size: 19px;
+font-family: 'Museo-700';
+font-weight: normal;
+color: #353535;
+text-transform: uppercase;
+}
+
+#zone-ariane {
+height: 144px;
+background: #ffffff;
+}
+
+#zone-ariane .fil-ariane {
+width: 1000px;
+margin: 0 auto;
+padding-top: 102px;
+font-family: 'Museo-700';
+color: #3a9ed8;
+font-size: 16px;
+}
+
+#zone-ariane .fil-ariane a {
+color: #9db6c3;
+text-decoration: none;
+}
+
+/** Catalogue des dessinateurs **/
+
+#catalog-dessi {
+margin-top: 60px;
+}
+
+#trie-dessi .label-trie,
+#trie-even  .label-trie{
+float: left;
+font-size: 14px;
+font-family: 'Museo-300';
+color: #353535;
+line-height: 36px;
+margin-right: 10px;
+}
+
+#filters {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+#filters li{
+float: left;
+margin-top:8px;
+}
+
+#filters li a{
+display: block;
+background: #aedffc;
+font-weight: 700;
+text-transform: uppercase;
+margin-right: 3px;
+padding: 10px 26px;
+color: #ffffff;
+text-decoration: none;
+}
+
+#filters li a.selected {
+background: #3a9ed9;
+}
+
+#liste-dessi {
+padding: 0;
+margin: 0;
+list-style: none;
+width: 1014px;
+margin-top: 40px;
+}
+
+#liste-dessi li {
+width: 320px;
+height: 480px;
+float: left;
+overflow: hidden;
+margin-right: 18px;
+}
+
+#liste-dessi li .vignette-dessi{
+width: 100%;
+height: 400px;
+overflow: hidden;
+}
+
+#liste-dessi li .vignette-dessi img{
+width: 100%;
+height: 100%;
+object-fit:cover;
+}
+
+
+#liste-dessi li a{
+text-decoration: none;
+color: #4b4a4b;
+}
+
+#liste-dessi li a .pseudo-dess,
+#liste-dessi li .pseudo-dess {
+font-family: 'Museo-500';
+margin-top: 10px;
+color: #353535;
+}
+
+#liste-dessi li a:hover .pseudo-dess {
+color: #399dd7;
+}
+
+#liste-dessi li .continent-dess {
+display: none;
+}
+
+/* Fiche detail d'un auteur */
+
+#fiche-dessi .avatar-dessi {
+width: 320px;
+float: left;
+background: #ffffff;
+text-align: center;
+}
+
+#fiche-dessi .avatar-dessi img{
+display: inline-block;
+max-width: 100%;
+height: auto;
+}
+
+#fiche-dessi .zone-txt-dessi {
+width: 640px;
+float: left;
+margin-left: 40px;
+}
+
+#fiche-dessi .pays-dessi {
+font-size: 16px;
+color: #353535;
+font-family: 'Museo-500';
+}
+
+#fiche-dessi .txt-dessi {
+min-height: 110px;
+}
+
+#fiche-dessi  .part-even ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#fiche-dessi  .part-even ul li {
+float: left;
+margin-right: 5px;
+margin-bottom: 5px;
+}
+
+#fiche-dessi  .part-even ul li img {
+max-height: 80px;
+width: auto;
+}
+
+#fiche-dessi  .part-even h4 {
+color: #399dd7;
+font-size: 18px;
+font-weight: normal;
+margin-top: 4px;
+margin-bottom: 10px;
+}
+
+#fiche-dessi .zone-parta {
+width: 100%;
+border-top: 1px solid #c9cbcb;
+padding-top: 17px;
+}
+
+#fiche-dessi .label-parta {
+float: left;
+font-size: 15px;
+font-family: 'Museo-500';
+color: #399dd7;
+margin-right: 10px;
+line-height: 30px;
+}
+
+#fiche-dessi .zone-parta ul {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+/*#fiche-dessi .zone-concern-aut {
+float: left;
+width: 405px;
+}*/
+
+#fiche-dessi .zone-concern-aut {
+float: left;
+width: 292px;
+min-height: 1px;
+}
+
+#fiche-dessi .zone-concern-aut .unart-aut {
+border-top: 1px solid #d6d8d8;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+#fiche-dessi .zone-concern-aut .unart-aut.first {
+border-top: none;
+}
+
+#fiche-dessi .zone-concern-aut h4,
+#fiche-dessi .zone-infosprat h4 {
+font-size: 23px;
+color: #399dd7;
+line-height: 25px;
+font-family: 'Museo-500';
+font-weight: normal;
+margin-bottom: 0;
+}
+
+#fiche-dessi .zone-concern-aut h5 {
+margin: 0;
+font-size: 13px;
+color: #353535;
+}
+
+#fiche-dessi .zone-concern-aut a.lien-art-aut {
+font-size: 13px;
+color: #353535;
+text-decoration: none;
+padding-left: 22px;
+background: url(img/ico-minipage.png) no-repeat left;
+padding-top: 6px;
+display: block;
+font-weight: 700;
+padding-bottom: 2px;
+}
+
+#fiche-dessi .zone-infosprat {
+float: left;
+margin-left: 70px;
+font-size: 13px;
+font-weight: 700;
+color: #353535;
+width: 520px;
+}
+
+#fiche-dessi .lesinfosdess {
+margin-top: 16px;
+min-height: 42px;
+}
+
+#fiche-dessi .zone-infosprat a {
+color: #353535;
+text-decoration: none;
+}
+
+#fiche-dessi .zone-infosprat a:hover {
+color: #399dd7;
+}
+
+#fiche-dessi .zone-infosprat ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#fiche-dessi .zone-infosprat ul li {
+float: left;
+}
+
+#fiche-dessi .zone-infosprat ul li a {
+width: 50px;
+height: 49px;
+display: block;
+margin-right: 10px;
+}
+
+#fiche-dessi .zone-infosprat ul li a.bigbulle-facebook {
+background: url(img/bigbulle-facebook.png) no-repeat top;
+}
+
+#fiche-dessi .zone-infosprat ul li a.bigbulle-facebook:hover {
+background: url(img/bigbulle-facebook.png) no-repeat bottom;
+}
+
+#fiche-dessi .zone-infosprat ul li a.bigbulle-googleplus {
+background: url(img/bigbulle-gplus.png) no-repeat top;
+}
+
+#fiche-dessi .zone-infosprat ul li a.bigbulle-googleplus:hover {
+background: url(img/bigbulle-gplus.png) no-repeat bottom;
+}
+
+#fiche-dessi .zone-infosprat ul li a.bigbulle-twitter {
+background: url(img/bigbulle-twitter.png) no-repeat top;
+}
+
+#fiche-dessi .zone-infosprat ul li a.bigbulle-twitter:hover {
+background: url(img/bigbulle-twitter.png) no-repeat bottom;
+}
+#fiche-dessi .zone-infosprat ul li a.bigbulle-instagram {
+	background: url(img/bigbulle-insta.png) no-repeat top;
+	}
+	
+	#fiche-dessi .zone-infosprat ul li a.bigbulle-instagram:hover {
+	background: url(img/bigbulle-insta.png) no-repeat bottom;
+	}
+	
+
+#fiche-dessi .separa-infosp {
+width: 100%;
+border: 1px solid #d6d8d8;
+margin: 15px 0 15px 0;
+}
+
+#zone-endess h3,
+#zone-envid h3,
+#zone-even-une h3,
+#catalog-even h3,
+#apdcfp h3,
+#listing-expos h3 {
+font-size: 19px;
+font-family: 'Museo-700';
+font-weight: normal;
+color: #353535;
+position: relative;
+text-transform: uppercase;
+z-index: 2;
+margin-top: 50px;
+margin-bottom: 32px;
+}
+
+#zone-endess h3:before,
+#zone-envid h3:before,
+#zone-even-une h3:before,
+#catalog-even h3:before,
+#apdcfp h3:before,
+#listing-expos h3:before {
+content: '';
+width: 38px;
+height: 38px;
+position: absolute;
+left: -10px;
+top: -10px;
+background: url(img/scotch-bleu.png) no-repeat;
+z-index: -1;
+}
+
+#zone-endess .bg-zendess {
+background: #ffffff;
+padding-bottom: 30px;
+}
+
+#sliderendess.chargement{
+min-height: 300px;
+}
+
+#sliderendess.chargement:before{
+content: '';
+height: 20px;
+width: 100%;
+position: absolute;
+left: 0;
+background: url(img/chargement.gif) no-repeat center;
+top: 180px;
+}
+
+#sliderendess {
+    position: relative;
+}
+
+#sliderendess .slides li {
+text-align: center;
+}
+
+#sliderendess .slides li img {
+width: auto;
+max-width: 100%;
+max-height: 700px;
+display: inline-block;
+}
+
+#sliderendess li .flex-prev {
+position: absolute;
+width: 37px;
+height: 100%;
+background: url(img/bg-bleutransp-sliderint.png);
+left: 0px;
+top: 0px;
+text-indent: -9000px;
+z-index: 2;
+}
+
+#sliderendess li .flex-prev:before {
+content: '';
+width: 23px;
+height: 44px;
+position: absolute;
+left: 6px;
+top: 48%;
+background: url(img/fleche-blanche-prec.png) no-repeat;
+}
+
+#sliderendess li .flex-next {
+position: absolute;
+width: 37px;
+height: 100%;
+background: url(img/bg-bleutransp-sliderint.png);
+right: 0px;
+top: 0px;
+text-indent: -9000px;
+z-index: 2;
+}
+
+#sliderendess li .flex-next:before {
+content: '';
+width: 23px;
+height: 44px;
+position: absolute;
+right: 6px;
+top: 48%;
+background: url(img/fleche-blanche-suiv.png) no-repeat;
+}
+
+#carouendess {
+width: 890px;
+position: relative;
+margin: 148px auto 0 auto;
+z-index: 2;
+}
+
+#carouendess .slides {
+max-height: 110px;
+overflow: hidden;
+}
+
+#carouendess li {
+margin-right: 26px;
+cursor: pointer;
+}
+
+#carouendess li.flex-active-slide img {
+opacity: 0.5;
+}
+
+#zone-endess .legende-dessin {
+width: 100%;
+position: absolute;
+text-align: center;
+bottom: -100px;
+}
+
+#slider  .legende-dessin {
+max-width: 630px;
+margin: 0 auto;
+}
+
+#zone-endess .legende-dessin .txtleg-dessin,
+#slider  .legende-dessin .txtleg-dessin {
+display: inline-block;
+max-width: 630px;
+margin-top: 10px;
+}
+
+#zone-endess .legende-dessin .titre-dessin,
+#slider .legende-dessin .titre-dessin {
+color: #353535;
+font-family: 'Museo-500';
+}
+
+#slider .legende-dessin .titre-dessin {
+font-size: 20px;
+margin-top: 10px;
+}
+
+
+
+#carouendess li .flex-prev {
+position: absolute;
+width: 31px;
+height: 25px;
+background: url(img/microfleche-prec.png) no-repeat center;
+left: -30px;
+top: 40px;
+text-indent: -9000px;
+}
+
+#carouendess li .flex-next {
+position: absolute;
+width: 31px;
+height: 25px;
+background: url(img/microfleche-suiv.png) no-repeat center;
+right: -30px;
+top: 40px;
+text-indent: -9000px;
+}
+
+#zone-endess .zone-partaendess {
+width: 890px;
+margin: 27px auto 0 auto;
+border-top: 1px solid #d6d6d6;
+}
+
+#zone-envid {
+padding-bottom: 100px;
+}
+
+#zone-envid .unevid{
+width: 824px;
+margin: 0 auto;
+}
+
+#zone-envid .bg-zenvid{
+background: #ffffff;
+padding-bottom: 60px;
+}
+
+
+/** Page catalogue des événements **/
+
+#zone-even-une .image-even-une {
+float: left;
+margin-right: 40px;
+width: 320px;
+overflow: hidden;
+}
+
+#zone-even-une .image-even-une img {
+max-width: 100%;
+height: auto;
+}
+
+#zone-even-une .infos-even-une {
+float: left;
+width: 640px;
+}
+
+#zone-even-une .infos-even-une h4 {
+margin-top: 0;
+font-size: 23px;
+font-family: 'Museo-500';
+font-weight: normal;
+margin-bottom: 12px;
+}
+
+#zone-even-une .infos-even-une h4 a {
+text-decoration: none;
+color: #399dd7;
+}
+
+#zone-even-une .details-even-une {
+font-weight: 700;
+color: #353535;
+margin-bottom: 10px;
+}
+
+#zone-even-une .parten-even-une h5 {
+font-size: 14px;
+margin-bottom: 10px;
+}
+
+#zone-even-une .parten-even-une ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#zone-even-une .parten-even-une ul li {
+float: left;
+}
+
+#zone-even-une .parten-even-une ul li a {
+display: block;
+width: 30px;
+height: 30px;
+background: grey;
+margin-right: 8px;
+}
+
+#zone-even-une .parta-even-une {
+width: 640px;
+border-top: 1px solid #c9cbcb;
+margin-top: 34px;
+}
+
+#catalog-even {
+margin-top: 80px;
+padding-bottom: 60px;
+}
+
+ul#liste-even-cours,
+ul#liste-even-passes {
+margin: 0;
+padding: 0;
+list-style: none;
+width: 1014px;
+}
+
+ul#liste-even-cours li,
+ul#liste-even-passes li {
+float: left;
+margin-right: 16px;
+margin-bottom: 22px;
+width: 321px;
+min-height: 236px;
+}
+
+
+ul#liste-even-cours li .vignette-dessi,
+ul#liste-even-passes li .vignette-dessi {
+width: 100%;
+height: 172px;
+overflow: hidden;
+}
+
+ul#liste-even-cours li .vignette-dessi img,
+ul#liste-even-passes li .vignette-dessi img {
+width: 100%;
+height: auto;
+}
+
+ul#liste-even-cours li a,
+ul#liste-even-passes li a {
+text-decoration: none;
+color: #4b4a4b;
+}
+
+ul#liste-even-cours li a .nom-even,
+ul#liste-even-passes li a .nom-even{
+text-decoration: none;
+color: #353535;
+font-family: 'Museo-500';
+margin-top: 10px;
+}
+
+ul#liste-even-cours li a .pays-even,
+ul#liste-even-cours li a .nature-even {
+display: none;
+}
+
+ul#liste-even-cours li a:hover .nom-even,
+ul#liste-even-passes li a:hover .nom-even{
+color: #399dd7;
+}
+
+
+/* Page soutien au dessinateurs */
+
+#bloc-missions {
+background: #ffffff;
+padding: 44px;
+box-sizing: border-box;
+width: 100%;
+}
+
+#bloc-missions h3 {
+font-size: 23px;
+font-family: 'Museo-500';
+color: #353535;
+font-weight: normal;
+margin-top: 0;
+}
+
+#bloc-missions h5 {
+font-size: 14px;
+font-family: 'Museo-500';
+color: #353535;
+font-weight: normal;
+}
+
+#bloc-missions .part-actions h5 {
+font-size: 14px;
+font-family: 'Museo-500';
+color: #353535;
+font-weight: normal;
+}
+
+#bloc-missions .part-actions ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#bloc-missions .part-actions ul li {
+float: left;
+}
+
+#bloc-missions .part-actions ul li a {
+display: block;
+width: 126px;
+height: 131px;
+background: #eef0f0;
+margin-right: 3px;
+}
+
+/* Page detail d'un événement */
+
+#fiche-dessi .infoseven-princi {
+font-weight: 700;
+color: #353535;
+}
+
+#zone-infosprat-da {
+background: #ffffff;
+width: 100%;
+padding: 14px 14px 14px 40px;
+box-sizing: border-box;
+margin-top: 60px;
+}
+
+#zone-infosprat-da .cont-blocsida {
+width: 300px;
+float: left;
+font-size: 13px;
+line-height: 16px;
+color: #353535;
+font-weight: 700;
+}
+
+#zone-infosprat-da .cont-blocsida a{
+color: #353535;
+}
+
+#zone-infosprat-da .cont-blocsida h4 {
+font-size: 23px;
+line-height: 25px;
+margin: 0;
+color: #399dd7;
+font-family: 'Museo-500';
+font-weight: normal;
+}
+
+#zone-infosprat-da .cont-blocsida .bloc-daeven h4 {
+margin: 20px 0 10px 0 ;
+}
+
+#zone-infosprat-da .cont-blocsida .bloc-daeven a {
+display: block;
+}
+
+#zone-infosprat-da .zone-ggmap {
+width: 626px;
+height: 299px;
+/*background: url(img/ggmap-fake.jpg) no-repeat;*/
+background: #EFEFEF;
+float: right;
+}
+
+/*** PAGE CARTOONOTHEQUE ***/
+
+#listing-cartoono {
+margin-top: 60px;
+padding-bottom: 60px;
+}
+
+#listing-cartoono ul {
+margin: 0 0 0 -20px;
+padding: 0;
+list-style: none;
+}
+
+#listing-cartoono ul li {
+float: left;
+margin-left: 20px;
+margin-bottom: 20px;
+width: 490px;
+height: 150px;
+overflow: hidden;
+}
+
+#listing-cartoono ul li img{
+width: 100%;
+height: auto;
+}
+
+#listing-cartoono ul li a{
+display: block;
+position: relative;
+}
+
+#listing-cartoono ul li a .titre-cartoono {
+position: absolute;
+top: 0;
+left: 0;
+background-color: #aedffc;
+padding: 9px 18px;
+color: #ffffff;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 13px;
+}
+
+#listing-cartoono ul li a:hover .titre-cartoono {
+background-color: #389bd4;
+}
+
+.txt-intro-cartoono {
+font-size: 15px;
+line-height: 22px;
+margin-top: -12px;
+}
+
+.txt-intro-cartoono p {
+margin: 0;
+}
+
+#zone-endess.cartoonoalu {
+background: #ffffff;
+position: relative;
+}
+
+#zone-endess.cartoonoalu h3 {
+font-size: 23px;
+font-family: 'Museo-500';
+padding-top: 40px;
+margin-left: 40px;
+}
+
+#zone-endess.cartoonoalu h3:before {
+display: none;
+}
+
+#zone-endess.cartoonoalu a.enavant-big {
+display: block;
+position: absolute;
+right: 20px;
+top: 20px;
+color: #4b4a4b;
+font-size: 12px;
+text-decoration: none;
+padding-right: 38px;
+background: url(img/ico-veg.png) no-repeat right;
+padding-top: 4px;
+padding-bottom: 4px;
+z-index: 2;
+}
+
+/* Test menu sans les fleches si pas de sous menu */
+
+#menu ul li.menu-item-152 a {
+padding: 26px 22px 20px 21px;
+}
+
+#menu ul li.menu-item-108 a {
+padding: 26px 22px 20px 20px;
+}
+
+#menu ul li.menu-item-7824 a,
+#menu ul li.menu-item-7825 a
+
+{
+padding: 26px 38px 20px 40px;
+}
+
+#menu ul li.menu-item-9281 a,
+#menu ul li.menu-item-9282 a, #menu ul li.menu-item-12191 a
+{
+	padding:26px 24px 20px 24px
+
+}
+#menu ul li.menu-item-7823 a,
+#menu ul li.menu-item-7822 a {
+padding: 26px 28px 20px 24px;
+}
+
+#menu ul li.menu-item-15906 a ,#menu ul li.menu-item-17532 a {
+padding: 26px 27px 20px 25px;
+background: #d0e6f1;
+color:#393939;
+}
+#menu ul li.menu-item-15906 a:hover,#menu ul li.menu-item-17532 a:hover  {
+
+background: #9dd7f2;
+
+}
+
+#menu ul li.menu-item-107 a {
+    padding: 26px 24px 20px 25px;
+}
+
+#menu ul li.menu-item-152 a:after,
+#menu ul li.menu-item-108 a:after,
+#menu ul li.menu-item-107 a:after,
+#menu ul li.menu-item-7824 a:after,
+#menu ul li.menu-item-7825 a:after,
+#menu ul li.menu-item-9281 a:after,
+#menu ul li.menu-item-9282 a:after,
+#menu ul li.menu-item-12191 a:after
+
+
+{
+display: none
+}
+
+
+/* Page espace presse */
+#page-espacep .intro {
+font-size: 15px;
+font-weight: 300;
+line-height: 22px;
+margin-top: -5px;
+margin-bottom: 56px;
+}
+
+#page-espacep .intro p {
+margin: 0;
+}
+
+#apdcfp .bloc-apdcfp {
+float: left;
+width: 322px;
+margin-left: 17px;
+}
+
+#apdcfp p.intro-apdcfp {
+font-size: 15px;
+line-height: 19px;
+font-weight: 300;
+margin: 0;
+}
+
+#apdcfp .bloc-apdcfp.first {
+margin-left: 0;
+}
+
+#apdcfp .bloc-apdcfp h4{
+font-family: 'Museo-500';
+font-size: 14px;
+color: #353535;
+font-weight: normal;
+margin-top: 9px;
+margin-bottom: 10px;
+}
+
+#apdcfp .bloc-apdcfp a.btn-tls {
+color: #3a9ed9;
+font-size: 14px;
+text-decoration: none;
+font-family: 'Museo-500';
+margin-top: 25px;
+display: block;
+}
+
+#apdcfp .bloc-apdcfp a.btn-tls:hover {
+color: #353535;
+}
+
+#listing-expos .img-expo {
+float: left;
+width: 319px;
+}
+
+#listing-expos .une-expo {
+margin-bottom: 30px;
+}
+
+#listing-expos .img-expo img {
+display: block;
+max-width: 100%;
+height: auto;
+}
+
+#listing-expos .infos-expo {
+float: left;
+width: 640px;
+margin-left: 40px;
+}
+
+#listing-expos .infos-expo h4 {
+margin-bottom: 30px;
+color: #399dd7;
+font-size: 23px;
+font-family: 'Museo-500';
+font-weight: normal;
+margin-top: 0;
+margin-bottom: 26px;
+}
+
+#listing-expos .intro-expo {
+font-size: 15px;
+font-weight: 300;
+line-height: 19px;
+}
+
+#listing-expos .intro-expo p{
+margin: 0;
+}
+
+#listing-expos .liens-ldt {
+margin-top: 30px;
+margin-bottom: 19px;
+}
+
+#listing-expos .liens-ldt a.btn-ldt  {
+font-size: 13px;
+color: #353535;
+text-decoration: none;
+padding-left: 30px;
+background: url(img/ico-minipage.png) no-repeat left;
+padding-top: 6px;
+display: block;
+font-weight: 700;
+padding-bottom: 2px;
+}
+
+#listing-expos .infos-expo .zone-parta {
+width: 100%;
+border-top: 1px solid #c9cbcb;
+padding-top: 17px;
+}
+
+#listing-expos .infos-expo .label-parta {
+float: left;
+font-size: 15px;
+font-family: 'Museo-500';
+color: #399dd7;
+margin-right: 10px;
+line-height: 30px;
+}
+
+#listing-expos .infos-expo .zone-parta ul {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+/* Fin page espace presse */
+
+/* Page supports pédagogiques */
+
+#liste-dessi.support-peda {
+
+}
+
+#liste-dessi.support-peda li {
+height: 500px; /*420*/
+}
+#liste-dessi.support-peda li .vignette-dessi img {
+    height: 240px;
+    object-fit: cover;
+}
+#liste-dessi.support-peda li .vignette-dessi{ height:240px;}
+#liste-dessi.support-peda li .pays-dess {
+font-family: 'Museo-500';
+}
+
+#liste-dessi.support-peda li a.btn-esp {
+font-family: 'Museo-500';
+text-decoration: none;
+color: #4f8bca;
+}
+
+/* Fin page supports pédagogiques */
+
+#ban_flash {
+width: 100%;
+text-align: center;
+position: absolute;
+top: 176px;
+}
+
+#catalog-even.soutien-dessi {
+margin-top: 40px;
+}
+
+/*#zone-even-une {
+display: none;
+}*/
+
+.page-id-2448 #zone-even-une {
+ /*display: none; edited*/
+}
+
+.resume-edito a {
+color: #3a9ed9;
+}
+/*gforms (new*)*/
+.bloc-footer.newsl label{font-weight:lighter!important;}
+#blocs-footer .bloc-footer.newsl input[type="submit"] {background: #363636 none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 0px;/*24 and 48*/
+    margin-top: 19px;
+    padding: 8px 26px 7px 23px;
+    text-align: center;}
+#blocs-footer	.gform_wrapper .gform_footer {margin: 0px 0 0;
+    padding: 0px 0 10px;}
+/*hide espacepresse from main menu*/	
+#menu .menu-item-7833 ,#menu .menu-item-7834	{display:none!important;}
+#cont-header form{position:absolute;right:0;bottom:-20px;}
+
+
+/* search page */
+.search-results .post {padding-top: 20px;}
+.search-results .post img{float:left;height:50px;width:50px; margin-right:20px}
+.search-results .post:after{    content: '';
+    display: block;
+    clear: both;}
+.search-results .page-rdr{background-color:#fff!important;}
+.search-results .post-title a{font-family: 'Museo-700';color: #3a9ed8;}
+.search-results hr{ margin-top:40px;}
+.pagination {text-align:center;margin-top:25px}
+.pagination a {margin:2px 5px;color: #3a9ed8;}
+
+
+#searchform {width:172px; }
+.search input { /*text-indent: 30px;*/}
+input.form-search{width:150px;height:20px;}
+.search .fa-search { 
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  font-size: 15px;
+}
+
+button.search{height:24px;background:none;border:0;position: absolute; padding: 0!important;
+    margin-top: -4px;}
+.ie  button.search{padding: 1px 8px!important}   
+
+input[type="text"]:focus{border: 1px #3a9ed9 solid;}
+input[type="text"]{border: 1px #dedede solid}
+/*.bloc-footer .gform_button{margin-left:25px;}*/
+input.artistname,input.country,input.countryevents{background-color:#aedffc;    -webkit-appearance: none; 
+    -moz-appearance: none;  border:     1px solid #eee;height: 36px;
+margin-top: -12px;}
+    
+    
+.trie-even-txt{padding-top:17px;}
+ #trie-even .label-trie{padding-top:8px}
+ #EmplacementDeMaCarte{height:300px;}
+/*tarteaucitron-*/
+body #tarteaucitronRoot #tarteaucitronAlertBig{background-color: #389bd4}
+body #tarteaucitronRoot #tarteaucitronPrivacyUrl {color:#fff;text-decoration: underline}
+body #tarteaucitronRoot *{font-family: "open sans"!important;}
+body #tarteaucitronRoot #tarteaucitronInfo #tarteaucitronPrivacyUrl {color:#333;}
+zfooter .gfield_required{display: none;}
+#field_2_2 .gfield_label,#field_1_2 .gfield_label{font-size:12px;}
+
+
+#select-langues #lang_sel_list ul li:first-child::after {
+top: 7px;
+}
+
+#lang_sel_list .wpml-ls-current-language a {color:#333!important}
+
+/* mod starts here */
+ul li a .date-cartoono {
+	position: absolute;
+	right: 0;
+	top: 130px;
+	background-color: rgba(255,255,255,1);
+	padding: 2px 10px;
+	color: #3a9dd6;
+	/*text-transform: uppercase;*/
+	font-weight: 700;
+	font-size: 13px;
+  }
+
+  .meta-edito{font-style: italic;}
+  #zone-endess.cartoonoalu h3 .meta-edito{font-style: italic;font-size: 15px;font-family: 'Open Sans';text-transform: none;margin-left: 10px;}
+
+.corps a{color:#138bc7!important;font-weight:bold }
+
+
+/*alertes*/
+.alerton{
+z-index: 999999;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.7);
+  border-radius: 4px;
+  padding: 5px;
+
+}
+.alert-status{padding-bottom: 20px;margin-top: -20px;}
